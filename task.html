@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration form</h1>
+    <form>
+        <label for = "name"> Full Name: </label>
+        <input type = "text" name="name" id ="name" placeholder="write your name" required> <br><br>
+        <label for = "email"> Email: </label>
+        <input type = "email" email="email" id="email" placeholder="write your email" required> <br><br>
+         <label for = "password"> Password: </label>
+        <input type = "password" password="password" id="password" placeholder="write your password" required> <br><br>
+         <label for = "age"> Age: </label>
+        <input type = "number" age="age" id="age" placeholder="write your age" min="1" max="20"> <br><br>
+         <label for = "dob"> Date of birth: </label>
+        <input type = "date" dob="dob" id ="dob" placeholder="select your date of birth" > <br><br>
+        <label > Gender: </label>
+        <input type="radio" name="Gender" value="male"> Male
+         <input type="radio" name="Gender" value="female"> Female
+          <input type="radio" name="Gender" value="others"> Others <Br><br>
+          <label > City: </label>
+          <select name ="City">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Sylhet">Sylhet</option>
+          </select><Br><br>
+            <label > hobbies: </label>
+            <input type="checkbox" name="hobbies" value="Reading"> Reading
+             <input type="checkbox" name="hobbies" value="Cricket"> Cricket
+              <input type="checkbox" name="hobbies" value="Music"> Music  <br><br>
+              <label > About Yourself: </label><br>
+              <textarea rows="2" cols="30"></textarea><br><br>
+              <input type="submit" value="submit">
+                   <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
